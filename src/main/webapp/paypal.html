@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <head>
+  <title>PAYMENT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/pay.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+   <script>
+        $(function() {
+       $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+</head>
+<body>
+ <div style="background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg)" class="page-holder bg-cover">
+  <div class="container py-5">
+    
+    <div class="row mb-4">
+
+        <div class="col-lg-8 mx-auto text-center">
+            <h1 class="display-4">Payment</h1>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+                        
+                        <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
+                            <li class="nav-item"> <a data-toggle="pill" href="payment.html" class="nav-link active "> <i class="fas fa-credit-card mr-2"></i> Credit Card </a> </li>
+                           <li class="nav-item"> <a data-toggle="pill" href="paypal.html" class="nav-link "> <i class="fab fa-paypal mr-2"></i> Paypal </a> </li>
+                            <li class="nav-item"> <a data-toggle="pill" href="net.html" class="nav-link "> <i class="fas fa-mobile-alt mr-2"></i> Net Banking </a> </li>
+                        </ul>
+                    </div> 
+                   
+                       
+                        <h6 class="pb-2">Select your paypal account type</h6>
+                        <div class="form-group "> 
+                          <label class="radio-inline"> 
+                              <input type="radio" name="optradio" checked> Domestic </label> 
+                         <label class="radio-inline"> 
+                         <input type="radio" name="optradio" class="ml-5">International </label>
+                       </div>
+                        <p> <button type="button" class="btn btn-primary "><i class="fab fa-paypal mr-2"></i> Log into my Paypal</button> </p>
+                        <p class="text-muted"> Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your order. </p>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+          
